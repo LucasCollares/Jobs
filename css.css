@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 10px;
+  }
+  a{
+    font-family: 'rubik';
+    text-decoration: none;
+  }
+  
+  html{
+    --bgColor: rgb(246, 243, 250);
+    --primaryColor: #160030;
+    
+    --textColor: #160030;
+    --primaryColorBoton: #8145c6;
+    --borderColor: #160030;
+  }
+  body.dark{
+    --bgColor: #eefff0;
+    --textColor: #008a2e;
+    --primaryColor: #253c1c;
+    --primaryColorBoton: #2f8e15;
+    --borderColor: #008a2e;
+  }
+  body.pink{
+    --bgColor: #fff0f6;
+    --textColor: #1f000B;
+    --primaryColor: #d6336c;
+    --primaryColorBoton: #A61e4d;
+    --borderColor: #d6336c;
+  }
+  
+  body.darkPurple{
+    --bgColor: #18001d;
+    --textColor: #faebfe;
+    --primaryColor: #00aee2;
+    --primaryColorBoton: #003668;
+    --borderColor: #ffffff;
+  }
+  
+  img{
+    width: 100%;
+    }
+  .fotoDePerfil{
+    width: 100px;
+    height: 100px;
+    border: var(--borderColor) solid 4px;
+    padding: 3px;
+    border-radius: 100%;
+  
+  }
+  
+  
+  body{
+  background-color: rgb(246, 243, 250);
+  background: var(--bgColor);
+  color: var(--textColor);
+  }
+  
+  .name{
+    font-family: 'rubik';
+    color: var(--textColor);
+   
+  }
+  .profesion{
+    font-family: 'Rubik light', sans-serif;
+    margin: 12px
+  }
+  .countainers{
+  text-align: center;
+  margin: 30px auto;
+  width: 250px;
+  }
+  .fotoDePerfil{
+    margin: 6px;
+  }
+  ul{
+    list-style: none;
+    margin: 29px auto;
+  }
+  ul li a{
+    height: 50px;
+  
+    display: flex;
+    justify-content: center;
+    background: var(--primaryColor);
+    align-items: center;
+    color: var(--bgColor);
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    transition: background 700ms;
+  }
+  ul li a:hover{
+    background: var(--primaryColorBoton);
+  
+  }
+  h1:hover{
+    transition: opacity 400ms;
+    opacity: 0.5;
+    
+  }
+  
+  
+  
+  
